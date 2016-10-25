@@ -4,3 +4,4 @@ Online shopping is a form of electronic commerce which allows consumers to direc
 Admin on other hand can add, delete and update the available products. Also he/she can delete any user. Moreover admin got information about the cart information and can send the products to ship according to availability. 
 
 Done by using PHP(as backend), HTML,CSS, JAVASCRIPT(as front end).
+Start with main.php.. 
