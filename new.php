@@ -1,0 +1,15 @@
+<?php
+session_start();
+if(isset($_POST['contactmesave'])){
+$_SESSION['mobile']=$_POST['contact'];
+$_SESSION['countcontact']=0;
+}
+if(isset($_POST['addressmesave'])){
+	$_SESSION['address']=$_POST['address'];
+$_SESSION['countaddress']=0;
+}
+if(strcmp($_SESSION['back'],"mycart")==0)
+header("location:mycart.php");
+else
+	header("location:detail.php");
+?>
